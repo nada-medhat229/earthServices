@@ -692,7 +692,7 @@ footer {
 .form-data .btn_application{
     display: flex;
     align-items: center;
-    width: 10%;
+    width: 12%;
     margin: auto;
 
 
@@ -700,7 +700,7 @@ footer {
   
     background-color: #ffd10a;
  
-    padding: 0px 15px !important;
+    padding: 0px 25px !important;
 }
 .form-data .btn_application span.name{
     color: #fff;
@@ -814,8 +814,11 @@ footer {
         display: none;
     }
     .form-data .btn_application{
-       
+        padding: 0px 10px !important;
         width: 15%;
+    }
+    .form-data input:not([type='checkbox']), .form-data select {
+        width: 90%;
     }
 }
 
@@ -878,9 +881,10 @@ footer {
         display: block !important;
     } */
     .form-data .btn_application{
-       
-        width: 25%;
+        padding: 0px 20px !important;
+        width: 30%;
     }
+    
 }
 
 
@@ -958,13 +962,20 @@ footer {
         color: #1D1D1D;
         font-size: 15px;
     }
+    .form-data .btn_application a{
+        padding: 0px 4px !important;
+       
+    }
 }
 
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
 
 .Application_Services_item_name {
     text-align: center;
+}
+
+
 }
